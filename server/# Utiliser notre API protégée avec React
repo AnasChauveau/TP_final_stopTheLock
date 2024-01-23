@@ -1,0 +1,17 @@
+# Utiliser notre API protégée avec React
+
+## Objectifs
+
+- Utiliser un token pour accéder à une API protégée
+- Protéger une route grâce au token
+
+## Préparatifs
+
+Créer une route /api/users/me qui retourne les informations de l'utilisateur courant (celui qui a fourni le token)
+en cas de token invalide, le middleware précédement créé doit retourner une erreur 401
+
+## Instructions
+
+Créer une application React qui permet de se connecter à l'API et d'afficher les informations de l'utilisateur courant
+
+- Créer un projet `vite`
